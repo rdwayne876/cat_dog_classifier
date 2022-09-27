@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:cat_dog_classifier/splashscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
+      title: "Dog Detector",
+      home: MySplash(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
